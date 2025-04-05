@@ -1,0 +1,92 @@
+.container {
+  width: 700px;
+  height: 300px;
+  background-color: red;
+  border: 10px solid black;
+}
+
+.box {
+  background-color: brown;
+  border-radius: 20px;
+  width: 500px;
+  height: 100px;
+  border: 20px solid red;
+}
+.btn {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.main-container {
+  min-width: 700px;
+  background-color: lime;
+  border: 2px dashed red;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 40px 0px;
+  background-image: url(https://raw.githubusercontent.com/creativetimofficial/public-assets/master/twcomponents/header.webp);
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    width: 600px;
+    background-image: url(https://images.unsplash.com/photo-1741986947217-d1a0ecc39149?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1743051071378-2352ac2f4e48?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+}
+
+@media (max-width: 1100) {
+  .container {
+    width: 400px;
+    background-color: blue;
+    border: 10px dashed pink;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 200px;
+    background-color: gray;
+    border: 10px dotted yellow;
+  }
+  .box {
+    width: 300px;
+    background-color: darkblue;
+    border: 20px dashed yellow;
+  }
+}
+
+@media (max-width: 900px) {
+  .btn {
+    width: 800px;
+    background-color: red;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn {
+    width: 700px;
+    background-color: green;
+  }
+}
+@media (max-width: 700px) {
+  .btn {
+    width: 600px;
+    background-color: pink;
+  }
+}
+@media (max-width: 600px) {
+  .btn {
+    width: 500px;
+    background-color: black;
+    color: white;
+  }
+}
